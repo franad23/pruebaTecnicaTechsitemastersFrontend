@@ -13,3 +13,18 @@
   background-color: var(--BackgroundColor-);
   font-family: var(--Font-);
 }
+.buttonComponent {
+  background-color: var(--Green-);
+  color: var(--LetterColor-);
+  height: 35px;
+  width: 100%;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.buttonComponent:hover{
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid var(--BackgroundColor-);
+}

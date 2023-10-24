@@ -1,0 +1,27 @@
+*{ 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --BackgroundColor-: #EBEBEB;
+  --LetterColor-: #1F1F1F;
+  --Green-: #329F5B;
+  --Red-: #ED4551;
+}
+.inputComponentMainContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.titleInputComponent{
+  font-weight: 200;
+}
+.inputComponent{
+  width: 100%;
+  height: 35px;
+  padding: 0px 10px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
